@@ -1130,7 +1130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1178,7 +1178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2933564869505473404, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: multiplier
-      value: 2.5
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6464608299647855997, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_Name
@@ -1211,7 +1211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0.80999994
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1259,7 +1259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2933564869505473404, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: multiplier
-      value: 2.5
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6464608299647855997, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_Name
@@ -1397,7 +1397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 217656455983525921, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2933564869505473404, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: multiplier
-      value: 2.5
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6464608299647855997, guid: 01003bd07c95c1442b388de492fcf7f7, type: 3}
       propertyPath: m_Name
