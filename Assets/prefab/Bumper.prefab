@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 1.5, z: 1.2}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.7396249, y: 0.2895164, z: 0.88304126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -122,8 +122,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bola: {fileID: 0}
-  multiplier: 3
-  color: {r: 1, g: 0.033018887, b: 0.033018887, a: 0}
+  multiplier: 2.2
+  color: {r: 0.7422848, g: 0.031372547, b: 1, a: 0}
+  audioManager: {fileID: 0}
 --- !u!95 &6744547900674918845
 Animator:
   serializedVersion: 5
