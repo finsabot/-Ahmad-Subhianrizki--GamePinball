@@ -10,6 +10,8 @@ public class ScriptBumper : MonoBehaviour
 
     public AudioManager audioManager;
     public VFXManager vfxManager;
+    public ScoreManager scoreManager;
+    public float score;
 
     private Renderer renderer;
     private Animator animator;
@@ -36,6 +38,9 @@ public class ScriptBumper : MonoBehaviour
 
             //playvfx
             vfxManager.PlayVFX(collision.transform.position);
+
+            //score add
+            scoreManager.AddScore(score);
         }
     }
 }

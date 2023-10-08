@@ -14,6 +14,10 @@ public class SwitchController : MonoBehaviour
     public Collider bola;
     public Material offMaterial;
     public Material onMaterial;
+    public ScoreManager scoreManager;
+    public AudioManager audioManager;
+    public VFXManagerSwitch vfxManagerSwitch;
+    public float score;
 
     private SwitchState state;
     private Renderer renderer;
@@ -33,6 +37,15 @@ public class SwitchController : MonoBehaviour
         {
             Toggle();
         }
+
+        //score add
+        scoreManager.AddScore(score);
+
+        //playsfx
+        audioManager.PlaySFX(other.transform.position);
+
+        //playvfx
+        vfxManagerSwitch.PlayVFX(other.transform.position);
     }
 
     private void Set(bool active)
@@ -82,6 +95,6 @@ public class SwitchController : MonoBehaviour
     private IEnumerator BlinkTimerStart(float time)
     {
         yield return new WaitForSeconds(time);
-        StartCoroutine(Blink(2));
+        StartCoroutine(Blink(3));
     }
 }
